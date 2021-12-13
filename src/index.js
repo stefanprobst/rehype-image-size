@@ -3,6 +3,7 @@
 import { imageSize } from 'image-size'
 import * as path from 'path'
 import { visit } from 'unist-util-visit'
+import { isAbsoluteUrl as isUrl } from '@stefanprobst/is-absolute-url'
 
 /** @typedef {import('.').Options} Options */
 /** @typedef {import('hast').Root} Root */
@@ -30,14 +31,5 @@ export default function attacher(options) {
       node.properties.width = width
       node.properties.height = height
     }
-  }
-}
-
-function isUrl(str) {
-  try {
-    new URL(str)
-    return true
-  } catch {
-    return false
   }
 }

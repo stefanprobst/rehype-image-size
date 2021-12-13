@@ -209,6 +209,11 @@
   dependencies:
     "@commitlint/config-conventional" ">=9"
 
+"@stefanprobst/is-absolute-url@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.npmjs.org/@stefanprobst/is-absolute-url/-/is-absolute-url-1.0.1.tgz#1c707240c23a5048bd407085faf9f86030aace17"
+  integrity sha512-g3ZJL7qWJ1r2qpkkA1pyRXLXbzTaAbYF1iL0eS1ISAsuvsuqePQtlTCLIiIHE+efzha+AudMm2HAbL9GENaafQ==
+
 "@stefanprobst/prettier-config@^2.0.1":
   version "2.0.1"
   resolved "https://registry.npmjs.org/@stefanprobst/prettier-config/-/prettier-config-2.0.1.tgz#64284b5e147d01f1897635bb71bb8f65bb1ecf96"
